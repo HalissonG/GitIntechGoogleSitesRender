@@ -4,7 +4,7 @@ const app = express();
 var jsonParser = bodyParser.json();
 var cors = require("cors");
 var bit = 0;
-
+//teste
 app.use(cors());
 
 app.post("/", jsonParser, function (req, res) {
